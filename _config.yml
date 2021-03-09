@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 host: 0.0.0.0
 
-url:     "http://markiee.co"
+url:     "https://markiee.co"
 baseurl: ""
 
 # Site settings
-title:       "MARKIEE LLC"
+title:       "Markiee LLC - Build Your World!"
 email:       "support@markiee.co"
 description: ""
 language:    "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
