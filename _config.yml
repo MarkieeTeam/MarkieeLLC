@@ -1,0 +1,51 @@
+host:    0.0.0.0
+
+url:     "http://127.0.0.1"
+baseurl: ""
+
+# Site settings
+title:       "MARKIEE LLC"
+email:       "support@markiee.co"
+description: ""
+
+
+# Team names, titles and social links
+people:
+- name: Ngoc Nguyen
+  pic: ngocnt
+  position: Business Owner
+  social:
+    - title: twitter
+      url: https://twitter.com/NgocNT5/
+    - title: facebook
+      url: https://www.facebook.com/ntt520/
+    - title: linkedin
+      url: https://www.linkedin.com/in/ngoc-nguyen-tan-621962167/
+
+- name: Hoang Nguyen
+  pic: hoangnt
+  position: Co-Founder
+  social:
+    - title: twitter
+      url: https://twitter.com/MarathonZ1/
+    - title: facebook
+      url: https://www.facebook.com/hoangnguyen74/
+    - title: linkedin
+      url: https://www.linkedin.com/in/hoang-nguyen-9040481b3/
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/markiee.company
+  - title: linkedin
+    url: https://www.linkedin.com/company/72009440/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 1309 Coffeen Avenue STE 1200
+  - line: Sheridan, Wyoming 82801
+  - line: USA
+
+# Build settings
+markdown: kramdown
+permalink: pretty
