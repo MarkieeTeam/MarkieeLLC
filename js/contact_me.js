@@ -17,9 +17,13 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
+            var form = $form[0];
+
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: form.action,
+                type: form.method,
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
@@ -39,6 +43,8 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    // 
+                    return;
                 },
                 error: function() {
                     // Fail message
@@ -49,8 +55,11 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    // 
+                    return;
                 },
             })
+
         },
         filter: function() {
             return $(this).is(":visible");
@@ -62,7 +71,6 @@ $(function() {
         $(this).tab("show");
     });
 });
-
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
