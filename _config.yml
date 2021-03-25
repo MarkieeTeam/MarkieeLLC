@@ -19,7 +19,7 @@ language:    "en" # default language of the blog. Language codes: http://www.w3s
 people:
 - name: Ngoc Nguyen
   pic: ngocnt
-  position: Business Owner
+  position: Co-Founder/Owner
   social:
     - title: twitter
       url: https://twitter.com/NgocNT5/
@@ -30,7 +30,7 @@ people:
 
 - name: Kane Jr.
   pic: kanejr
-  position: Co-Founder
+  position: Co-Founder/Owner
   social:
     - title: twitter
       url: #
@@ -41,7 +41,7 @@ people:
 
 - name: Hoang Nguyen
   pic: hoangnt
-  position: Co-Founder
+  position: Co-Founder/Owner
   social:
     - title: twitter
       url: https://twitter.com/MarathonZ1/
