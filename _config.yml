@@ -1,13 +1,13 @@
+remote_theme: 'raviriley/agency-jekyll-theme'
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-host: 0.0.0.0
 
-url:     "https://markiee.co"
-baseurl: ""
+host: 0.0.0.0
 
 # Site settings
 title:       "MARKIEE LLC"
@@ -24,20 +24,7 @@ people:
     - title: twitter
       url: https://twitter.com/NgocNT5/
     - title: facebook
-      url: https://www.facebook.com/ntt520/
-    - title: linkedin
-      url: https://www.linkedin.com/in/ngoc-nguyen-tan-621962167/
-
-- name: Kane Jr.
-  pic: kanejr
-  position: Co-Founder/Owner
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/profile.php?id=100055072756583
 
 - name: Hoang Nguyen
   pic: hoangnt
@@ -47,8 +34,6 @@ people:
       url: https://twitter.com/MarathonZ1/
     - title: facebook
       url: https://www.facebook.com/hoangnguyen74/
-    - title: linkedin
-      url: https://www.linkedin.com/in/hoang-nguyen-9040481b3/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -60,7 +45,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: 1309 Coffeen Avenue STE 1200
-  - line: Sheridan, Wyoming 82801
+  - line: Sheridan, WY 82801
   - line: USA
 
 # Build settings
