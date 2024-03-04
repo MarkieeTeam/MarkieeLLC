@@ -26,15 +26,6 @@ people:
     - title: facebook
       url: https://www.facebook.com/profile.php?id=100055072756583
 
-- name: Hoang Nguyen
-  pic: hoangnt
-  position: Co-Founder/Owner
-  social:
-    - title: twitter
-      url: https://twitter.com/MarathonZ1/
-    - title: facebook
-      url: https://www.facebook.com/hoangnguyen74/
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
